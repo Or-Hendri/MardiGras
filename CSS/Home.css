@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-image: url(../images/Home/mardi-gras-background-free-vector.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    justify-content: center;
+}
+
+.carousel-item{
+height:  600px;
+}
+.c-img{
+    height: 100%;
+    width: 100%;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+   grid-gap: 20px;
+}
+.cards2{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+.card{
+    width: 288px;
+    height: 400px;
+    border-radius: 20px;
+    border: 8px solid black;
+    position: relative;;
+    overflow: hidden;
+}
+.card-img{
+    width: 100%;
+    height: 30%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.card-img1{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.card-img2{
+    width: 70%;
+    margin: 15px 39px;
+}
+
+
+.card-body{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: -100%;
+    position: absolute;
+    background:#565e64ad;
+    backdrop-filter: blur(5px);
+    border-radius: 15px;
+    color: white;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: 2s;
+}
+
+.card:hover .card-body{
+    right: 0;
+}
+
+.card-title{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+   position: fixed;
+   top: 20px;
+}
+.card-title1{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+   position: fixed;
+   top: 20px;
+}
+
+
+.card-info{
+    font-size: 14px;
+    line-height: 25px;
+    margin: 40px 0;
+    font-weight: 400;
+}
+
+.about-text{
+    padding: 25px;
+    background: #8cbf3f;
+    display: block;
+    line-height: 25px;
+    min-height: 250px;
+    display: flex;
+    color: white;
+    font-family: roboto;
+    
+}
+.about-text a {
+    color: white;
+    text-decoration: none;
+}
+.mayor{
+    width: 200px;
+}
+.about-text h6 {
+    color: yellow;
+    font-family: roboto;
+}
+.about-text h1 {
+    font-family: pattaya;
+}
+.aboutmayor{
+    padding: 5px 15px;
+    text-align: center;
+    font-family: roboto;
+}
+.footer{
+   padding: 40px 0;
+   background-color: black; 
+}
+.footer .social {
+    text-align: center;
+    padding-bottom: 25px;
+    color:white;
+}
+.footer .social a{
+    font-size: 24px;
+    color: inherit;
+    border: 1px solid #ccc;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    opacity: 0.75;
+}
+.footer .social a:hover{
+    opacity: 0.9;
+}
+.footer .copyright{
+   margin-top: 15px; 
+   text-align: center;
+   font-size: 18px;
+   color: white;
+}
+@media (max-width:1000px){
+  .cards{
+    grid-template-columns: repeat(1, 1fr);
+  }  
+  .cards2{
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .card{
+    overflow: visible;
+    right: 0;
+  }
+  .card-body{
+    right: 0;
+  }
+  .about-text{
+    display: flow-root;
+  }
+}

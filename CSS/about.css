@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-image: url(../images/Home/mardi-gras-background-free-vector.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    justify-content: center;
+}
+
+.aboutMardi {
+    background-image: url(../images/Home/about/5.jpg);
+    background-size: cover;
+  }
+  
+  .aboutMardi .container {
+    background: #f2cc0f;
+    border-radius: 10px;
+  }
+  
+  .aboutMardi .container .row .headline h1 {
+    font-family: pattaya;
+    margin-top: 85px;
+  }
+  .headline{
+    background: #9453A6;
+  }
+
+  .text-center {
+    text-align: center!important;
+    position: relative;bottom: 40px;
+    
+}
+
+  .aboutMardi .container .row p {
+    text-align: left;
+    text-indent: 25px;
+    padding: 0 25px;
+  }
+  
+  .aboutMardi .container .row p span {
+text-decoration: underline;
+  }
+  
+  .aboutMardi .container .row .aboutMardiImg {
+    width: 100%;
+    padding: 25px 25px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    padding: 40px 0;
+    background-color: black; 
+ }
+ .footer .social {
+     text-align: center;
+     padding-bottom: 25px;
+     color:white;
+ }
+ .footer .social a{
+     font-size: 24px;
+     color: inherit;
+     border: 1px solid #ccc;
+     width: 40px;
+     height: 40px;
+     line-height: 38px;
+     display: inline-block;
+     text-align: center;
+     border-radius: 50%;
+     margin: 0 8px;
+     opacity: 0.75;
+ }
+ .footer .social a:hover{
+     opacity: 0.9;
+ }
+ .footer .copyright{
+    margin-top: 15px; 
+    text-align: center;
+    font-size: 18px;
+    color: white;
+ }
